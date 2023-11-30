@@ -1,0 +1,42 @@
+Q-> 1 What is Truffle?
+Ans -> Truffle is development framework for dapps . Truffle helps in writing smart contracts , testing smart contracts , compiling them and also deploying them on live or on Etherium 
+       test networks. It is bigginer friendly tool for web3 developers . It also provide Truffle boxes that conatain some of the pre wrtitten boilerplate code for better understandig 
+       of its working . 
+
+
+Q -> 2 What is Ganache?
+Ans ->  Ganche helps us to create personal blockchain on our local computer . it provide a local environment to deploy , test and debug Etherium contracts without interacting with the 
+        main Etherium network. It is a usefull tool for dapps testing without costing any gas fee . 
+
+
+Q -> 3 Demonstrate the installation process of Truffle suite and display the current version of Truffle installed in your computer.
+Ans -> To install Truffle suit in our computer we can use following steps and commands : 
+        
+         step 1 : 
+                  you must have node package manager in your computer to confirm it you can run the following command :
+                         `npm --version `
+                         by hitting this command you will get npm version in my case it is 9.3.1 
+
+
+        step 2 :
+                Now to install Truffle suit you can run the following command in your computer :
+                     ` npm install truffle -g  ` 
+                     after some time truffle suit will be successfully intalled on your computer . 
+                
+                NOTE : This output is also shown in the "Q3.png" file atteched in this repository. 
+
+        step 3 : 
+                Now to display the current version of Truffle version hit the following command :
+                    ` truffle version `
+
+                    The output will be something like : `$ truffle version
+                                                           Truffle v5.11.5 (core: 5.11.5)
+                                                           Ganache v7.9.1
+                                                           Solidity v0.5.16 (solc-js)
+                                                           Node v18.14.1
+                                                           Web3.js v1.10.0`
+
+                   NOTE : this output is also shown in "Q3-version.png" file .
+
+
+       

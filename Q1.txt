@@ -1,7 +1,0 @@
-Q-> 1 What is Truffle?
-Ans -> Truffle is development framework for dapps . Truffle helps in writing smart contracts , testing smart contracts , compiling them and also deploying them on live or on Etherium 
-       test networks. It is bigginer friendly tool for web3 developers . It also provide Truffle boxes that conatain some of the pre wrtitten boilerplate code for better understandig 
-       of its working . 
-
-
-       

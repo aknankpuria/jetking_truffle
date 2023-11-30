@@ -83,8 +83,83 @@ Ans -> step 1 : make directory of name Metacoin .
 
                 2. we can deploy the conctracts with `truffle migrate ` command 
 
+                 Terminal view is shown in images "deploy1.png" and "deploy2.png " files . 
+                 here we can see  the following data 
+                   " 
+                   Compiling your contracts...
+                    ===========================
+                    > Compiling .\contracts\ConvertLib.sol
+                    > Compiling .\contracts\MetaCoin.sol
+                    > Artifacts written to C:\Users\khan\Desktop\jetking_truffle\Metacoin\build\contracts
+                    > Compiled successfully using:
+                       - solc: 0.8.13+commit.abaa5c0e.Emscripten.clang
+
+
+                   Starting migrations...
+                   ======================
+                     > Network name:    'development'
+                     > Network id:      5777
+                     > Block gas limit: 6721975 (0x6691b7)
+  
+                    
+                    1_deploy_contracts.js
+                    =====================
+                    
+                       Deploying 'ConvertLib'
+                       ----------------------
+                       > transaction hash:    0x1e62fa126e5558a37b7f03ba3c9e8bd389af664a6ad6aea201540e502a353074
+                       > Blocks: 0            Seconds: 0
+                       > contract address:    0x97EF3b8803d53839a6b9e8dCD2b1e87Cfa964774
+                       > block number:        1
+                       > block timestamp:     1701330015
+                       > account:             0x26E86991A5f4ccB9B3b22fa97311e9f0EE03B2F5
+                       > balance:             99.999468208
+                       > gas used:            157568 (0x26780)
+                       > gas price:           3.375 gwei
+                       > value sent:          0 ETH
+                       > total cost:          0.000531792 ETH
+                    
+                    
+                       Linking
+                       -------
+                       * Contract: MetaCoin <--> Library: ConvertLib (at address: 0x97EF3b8803d53839a6b9e8dCD2b1e87Cfa964774)
+                    
+                       Deploying 'MetaCoin'
+                       --------------------
+                       > transaction hash:    0xeb02c7ad8bd4c153f646cc066878fd5a366cf22fae538fc9553937c8515422f9
+                       > Blocks: 0            Seconds: 0
+                       > contract address:    0xEC966e9617995722fCe2b0d1C0f6EE9a370fc6df
+                       > block number:        2
+                       > block timestamp:     1701330015
+                       > account:             0x26E86991A5f4ccB9B3b22fa97311e9f0EE03B2F5
+                       > balance:             99.998105632065943366
+                       > gas used:            416594 (0x65b52)
+                       > gas price:           3.270752661 gwei
+                       > value sent:          0 ETH
+                       > total cost:          0.001362575934056634 ETH
+                    
+                       > Saving artifacts
+                       -------------------------------------
+                       > Total cost:     0.001894367934056634 ETH
+                    
+                    Summary
+                    =======
+                    > Total deployments:   2
+                    > Final cost:          0.001894367934056634 ETH
+                                         
+                                        
+                                       "
+                                      
+
                 now we can access our project on our localhost . 
                 on "http://127.0.0.1:7545/"
+
+
+
+                local blockchain trx can be seen in "ganache.png " file where two blocks have been mined.
+ 
+            
+                      
 
         
 

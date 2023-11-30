@@ -39,4 +39,64 @@ Ans -> To install Truffle suit in our computer we can use following steps and co
                    NOTE : this output is also shown in "Q3-version.png" file .
 
 
+
+Q -> 4 Demonstrate the process of unboxing metacoin project and explore the project structure by explaining the items briefly. 
+Ans -> step 1 : make directory of name Metacoin .  
+                with the following command `mkdir Metacoin` 
+
+                go into Metacoin directory with `cd Metacoin`
+
+        step 2 : install Truffle suit if not installed process for installing Truffle suit is explained in previous question . If installed move with step 3 
+
+        step 3 : Hit the following command to unbox the Metacoin project . 
+                     ` truffle unbox metacoin`    
+                metacoin  will be successfully opened . 
+           
+         NOTE : Terminal view can be seen in "Q4-metacoin.png "  file . 
+        #Unboxing of metacoin is done you can see the tree structure of the files in the Metacoin directory . it is also show in the "Q4-directory.png" fie.
+
+
+
+        Project Demonstration : -->> 
+
+        we can see the tree structure of the files in the "Q4-Metacoin1.png " file . from where we can see that we have :
+                 "contracts" folder containng 
+                            "convertlib.sol"
+                            "Metacoin.sol "
+                 "migration"  folder containng 
+                             "1_deploy_coantracts.js" 
+
+                 "test "   folder containng  
+                              "metacoin.js"
+                              "TestMetacoin.sol"
+
+                 ".gitignore "  file 
+                 " truffle-config.js " file 
+
+
+
+        Now to intract with project :
+
+               1.  we can compile the project with  `truffle compile` 
+                  after compilation we get build folder  that contains contract artifacts.
+
+
+                2. we can deploy the conctracts with `truffle migrate ` command 
+
+                now we can access our project on our localhost . 
+                on "http://127.0.0.1:7545/"
+
+        
+
+
+
+
+        
+
+
+                   
+              
+                 
+
+
        

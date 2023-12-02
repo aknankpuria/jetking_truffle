@@ -162,10 +162,6 @@ Ans -> step 1 : make directory of name Metacoin .
             
                       
 
-        
-
-
-
 
         
 

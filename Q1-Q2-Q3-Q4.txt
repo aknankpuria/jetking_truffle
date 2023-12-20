@@ -156,6 +156,7 @@ Ans -> step 1 : make directory of name Metacoin .
 
 
 
+
                 local blockchain trx can be seen in "ganache.png " file where two blocks have been mined.
                 
 

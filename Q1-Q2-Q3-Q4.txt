@@ -153,8 +153,6 @@ Ans -> step 1 : make directory of name Metacoin .
 
                 now we can access our project on our localhost . 
                 on "http://127.0.0.1:7545/"
-
-
                 local blockchain trx can be seen in "ganache.png " file where two blocks have been mined.
                 
 
